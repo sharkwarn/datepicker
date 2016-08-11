@@ -10,11 +10,7 @@
   $.fn.extend({
     YBJdatepicker: function(options) {
 
-      var defaults = {
-
-      };
-
-      var o = $.extend(defaults, options);
+     
 	  this.each(function(){
 		  var me=this;
 		  var weekstr='      <tr>'
