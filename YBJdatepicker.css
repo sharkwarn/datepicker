@@ -1,0 +1,125 @@
+@charset "UTF-8";
+    .riqixuanze {
+        width: 255px;
+        height: 40px;
+        display: block;
+        float: left;
+        outline: none;
+        background: url(../img/buyip/date.png) no-repeat 225px center;
+        box-sizing: border-box;
+        padding: 0 10px;
+        letter-spacing: 1px;
+        font-size: 14px;
+        color: #232831; }
+/*鏃ュ巻*/
+.rilibiao {
+  width: 255px;
+  height: 204px;
+  border: 1px solid #e4e4e4;
+  position: absolute;
+  left: -1px;
+  top: 38px;
+  background: #fff;
+  z-index: 1000;
+  display: none;
+  border-top: none;
+  box-sizing: border-box; }
+
+.rilitit {
+  width: 100%;
+  height: 30px; }
+
+.rilitit b {
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  float: left;
+  text-align: center;
+  font-weight: normal;
+  font-size: 12px;
+  text-decoration: underline;
+  color: #658bb1; }
+
+.rilibiao button {
+  width: 15px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 30px;
+  display: block;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #fff; }
+
+.rilibiao .rilixianshi {
+  display: block;
+  width: 100px;
+  height: 30px;
+  float: left;
+  line-height: 30px;
+  font-size: 16px;
+  text-align: center; }
+
+.rilibiao table {
+  width: 100%; }
+
+.rilibiao thead {
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  font-size: 12px; }
+
+.rilibiao thead tr th {
+  border-bottom: 1px solid #e4e4e4; }
+
+.rilibiao thead tr th:nth-child(6) {
+  color: #d7000f; }
+
+.rilibiao thead tr th:nth-child(7) {
+  color: #d7000f; }
+
+.rilibiao tbody {
+  width: 100%; }
+
+.rilibiao tbody tr {
+  width: 100%;
+  height: 20px; }
+
+.rilibiao tbody tr td {
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer; }
+.rilibiao tbody tr td span {
+    display: inline-block;
+    line-height: 16px;
+    text-align: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 3px; }
+.rilibiao tbody tr td.active1 span {
+    background: #009944;
+    color: #fff; }
+.rilibiao tbody tr td.active2 span {
+    background: #a40000;
+    color: #fff; }
+
+.rilibiao tbody tr td:nth-child(6) {
+  color: #d7000f; }
+
+.rilibiao tbody tr td:nth-child(7) {
+  color: #d7000f; }
+#jinri{
+  cursor:pointer;
+}
+#benyue{
+  cursor:pointer;
+}
+/*# sourceMappingURL=buyip.css.map */
